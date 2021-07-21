@@ -1,0 +1,56 @@
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  background: lightblue;
+  font-weight: bolder;
+}
+
+.nav-bar {
+  padding: 0 15px;
+}
+
+/* .side-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 5;
+} */
+
+.navbar-day-container {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+  height: 100%;
+}
+
+.streak-container {
+  height: 100%;
+  display: flex;
+}
+
+.streak {
+  padding-top: 20px;
+}
+
+.greeting {
+  position: absolute;
+  left: 45%;
+}
+
+.options {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.options .option {
+  padding: 10px 15px;
+  cursor: pointer;
+}

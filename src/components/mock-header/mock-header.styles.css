@@ -1,0 +1,26 @@
+.mock-header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  border-bottom: 5px solid black;
+}
+
+.mock-header .mock-greeting {
+  position: absolute;
+  left: 45%;
+}
+
+.mock-header .mock-day-container {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.mock-header .mock-day-container .nav-bar {
+  padding: 0 15px;
+  
+}
